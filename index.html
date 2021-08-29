@@ -1,209 +1,173 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Who won the Olympics?</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/svg+xml" href="https://twemoji.maxcdn.com/2/svg/1f3ca.svg">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
-	<style>
-
-	@font-face {
-    font-family: 'Icebox Magnet';
-    src: url('https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/raw/upload/v1630146076/iceboxmagnet.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Firava';
-    src: url('https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/raw/upload/v1630146177/Firava.ttf') format('truetype-variations');
-    font-style: normal;
-    font-display: swap;
-}
-
-	::selection {
-		background: hsl(33deg 100% 49%);
-		color: white;
-	}
-
-	:root {
-		--accent-color: orange;
-		--link-color: inherit;
-	}
-
-	body {
-		padding: 10vw;
-		background: white;
-	}
-
-	.meta {
-		font-variation-settings: "wght" 550;
-		opacity: 50%;
-	}
-
-	article {
-		max-width: 600px;
-	}
-
-	h1 {
-	  font-family: "Icebox Magnet", Impact;
-	  font-weight: normal;
-	  font-size: 40px;
-	  line-height: 40px;
-	  color: var(--accent-color);
-	  margin-top: 0px;
-	  margin-bottom: 30px;
-	}
-
-	p {
-		font-family: "Firava", Fira Sans, sans-serif;
-		font-variation-settings: "wght" 380;
-		font-size: 18px;
-	}
-
-	strong {
-		font-weight: normal;
-		font-variation-settings: "wght" 700;
-	}
-
-	a {
-		color: var(--link-color);
-		transition: 0.3s;
-	}
-
-	a:hover {
-		opacity: 50%;
-		font-variation-settings: "wght" 600;
-	}
-
-	img {
-		width: 100%;
-		border-radius: 10px;
-	}
-
-	hr {
-		height: 2px;
-		margin: 0px;
-    		background: hsl(0deg 0% 70%);
-    		border-style: none;
-		max-width: 200px;
-	}
-
-	span {
-	  position: relative;
-	}
-
-	.char1 {
-	  opacity: 80%;
-	}
-
-	.char2 {
-	  opacity: 100%;
-	}
-
-	.char3 {
-	  opacity: 65%;
-	}
-
-	.char4 {
-		opacity: 90%;
-	}
-
-	.char5 {
-		opacity: 100%;
-	}
-
-	.char6 {
-		opacity: 50%;
-	}
-
-	.char7 {
-	  opacity: 80%;
-	}
-
-	.char8 {
-	  opacity: 100%;
-	}
-
-	.char9 {
-	  opacity: 65%;
-	}
-
-	.char10 {
-		opacity: 90%;
-	}
-
-	.char11 {
-		opacity: 100%;
-	}
-
-	.char12 {
-		opacity: 50%;
-	}
-
-	.char13 {
-	  opacity: 80%;
-	}
-
-	.char14 {
-	  opacity: 100%;
-	}
-
-	.char15 {
-	  opacity: 65%;
-	}
-
-	.char16 {
-		opacity: 90%;
-	}
-
-	.char17 {
-		opacity: 100%;
-	}
-
-	.char18 {
-		opacity: 55%;
-	}
-
-	.char19 {
-	  opacity: 65%;
-	}
-
-	.char20 {
-		opacity: 100%;
-	}
-
-	.char21 {
-		opacity: 80%;
-	}
-
-</style>
-<head>
-<body>
-<script type="text/javascript">$(document).ready(function () {
-  $(".big-title").lettering();
-});
-</script>
-<header>
-  <h1 class="big-title">Who won the Olympics?</h1>
-  <p class="meta">Written by Matthew Butterick</p>
-<header>
-  <article>
-	<p>I have never been a watcher of the Olympics. Though I do enjoy the national-propaganda angle that arises during the games. For instance, this discrepancy in the medal count:</p>
-	<img src="https://gallery.tinyletterapp.com/d2af4bed81e4588e0600844957cbcefc4d8452ad/images/230f1fac-c133-62cb-57fd-95292cc8b23f.gif">
-	<p>The data underlying both tables is the same. Only the sorting is different. To no one’s surprise, US newspapers (like the LA Times, top) usually preferred sorting by total medal count. which tended to depict the US in the lead. Non-US newspapers (like the Guardian, bottom) usually preferred sorting by gold-medal count, which tended to put China in the lead.</p>
-	<p>Neither method is defensible. Total-medal ordering makes no sense because it weights all medals equally. This contradicts the basic logic of the medal system, which is gold > silver > bronze. But gold-medal ordering is no better. It ignores silver and bronze entirely. The New York Times made an interactive tool showing how different medal-weighting ratios would <a href="https://www.nytimes.com/interactive/2021/07/27/upshot/which-country-leads-in-the-olympic-medal-count.html">affect the rankings</a>.</p>
-	<p>Still, there are two other significant imbalances that the Olympics and the media rarely seem to acknowledge — let alone address in the medal ranking — that are inherent in a competition between nations.</p>
-	<p>First is <strong>population</strong>. Competing in the Olympics requires human beings with a high level of athletic talent. A country with a billion people is naturally going to have a larger talent pool than one with a million people.</p>
-	<p>Second is <strong>money</strong>. Competing in the Olympics requires infrastructure and funding for athletics. A wealthy country is naturally going to have an advantage over a poorer country. (Small but wealthy countries have sometimes <a href="https://www.nbcnews.com/storyline/2016-rio-summer-olympics/oil-rich-countries-are-importing-elite-athletes-bump-national-medal-n632566">imported their Olympic athletes</a>, despite the awkward symbolism.)</p>
-	<p>For fun, I used to calculate Olympic rankings weighted by these extra factors. That’s no longer necessary because the Financial Times has devised a <a href="https://ig.ft.com/tokyo-olympics-alternative-medal-table/" target="blank">gloriously detailed weighted ranking</a> along these lines. The winner probably won’t be surprising. The weighted ranking of the United States probably will be. We’re number one… hundred and eight!</p>
-  </article>
-<hr>
-  <footer>
-	<p><a href="https://github.com/ThomasRettig/olympics" target="blank">Edit on Github!</a></p>	
-  </footer>
-<body>
-<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Who won the Olympics?</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/svg+xml" href="https://twemoji.maxcdn.com/2/svg/1f3ca.svg">
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+      <style>
+         @font-face {
+         font-family: ‘Icebox Magnet’;
+         src: url(‘https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/raw/upload/v1630146076/iceboxmagnet.woff2’) format(‘woff2’);
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+         }
+         @font-face {
+         font-family: ‘Firava’;
+         src: url(‘https://res.cloudinary.com/cloudinary-sucks-so-fucking-much/raw/upload/v1630146177/Firava.ttf’) format(‘truetype-variations’);
+         font-style: normal;
+         font-display: swap;
+         }
+         ::selection {
+         background: hsl(33deg 100% 49%);
+         color: white;
+         }
+         :root {
+         –accent-color: black;
+         –link-color: inherit;
+         }
+         body {
+         padding: 10vw;
+         background: white;
+         }
+         .meta {
+         font-variation-settings: “wght” 550;
+         opacity: 50%;
+         }
+         article {
+         max-width: 600px;
+         }
+         h1 {
+         font-family: “Icebox Magnet”, Impact;
+         font-weight: normal;
+         font-size: 40px;
+         line-height: 40px;
+         color: var(--accent-color);
+         margin-top: 0px;
+         margin-bottom: 30px;
+         text-shadow: 4px 4px 0px hsl(0deg 0% 90%);
+         }
+         p {
+         font-family: “Firava”, Fira Sans, sans-serif;
+         font-variation-settings: “wght” 380;
+         font-size: 18px;
+         }
+         strong {
+         font-weight: normal;
+         font-variation-settings: “wght” 700;
+         }
+         a {
+         color: var(--link-color);
+         transition: 0.3s;
+         }
+         a:hover {
+         opacity: 50%;
+         font-variation-settings: “wght” 600;
+         }
+         img {
+         width: 100%;
+         border-radius: 10px;
+         }
+         hr {
+         height: 2px;
+         margin: 0px;
+         background: hsl(0deg 0% 70%);
+         border-style: none;
+         max-width: 200px;
+         }
+         span {
+         position: relative;
+         }
+         .char1 {
+         opacity: 80%;
+         }
+         .char2 {
+         opacity: 100%;
+         }
+         .char3 {
+         opacity: 65%;
+         }
+         .char4 {
+         opacity: 90%;
+         }
+         .char5 {
+         opacity: 100%;
+         }
+         .char6 {
+         opacity: 50%;
+         }
+         .char7 {
+         opacity: 80%;
+         }
+         .char8 {
+         opacity: 100%;
+         }
+         .char9 {
+         opacity: 65%;
+         }
+         .char10 {
+         opacity: 90%;
+         }
+         .char11 {
+         opacity: 100%;
+         }
+         .char12 {
+         opacity: 50%;
+         }
+         .char13 {
+         opacity: 80%;
+         }
+         .char14 {
+         opacity: 100%;
+         }
+         .char15 {
+         opacity: 65%;
+         }
+         .char16 {
+         opacity: 90%;
+         }
+         .char17 {
+         opacity: 100%;
+         }
+         .char18 {
+         opacity: 55%;
+         }
+         .char19 {
+         opacity: 65%;
+         }
+         .char20 {
+         opacity: 100%;
+         }
+         .char21 {
+         opacity: 80%;
+         }
+      </style>
+      <head>
+   <body>
+      <script type="text/javascript">$(document).ready(function () {
+         $(“.big-title”).lettering();
+         });
+      </script>
+      <header>
+      <h1 class="big-title">Who won the Olympics?</h1>
+      <p class="meta">Written by Matthew Butterick</p>
+      <header>
+      <article>
+         <p>I have never been a watcher of the Olympics. Though I do enjoy the national-propaganda angle that arises during the games. For instance, this discrepancy in the medal count:</p>
+         <img src="https://gallery.tinyletterapp.com/d2af4bed81e4588e0600844957cbcefc4d8452ad/images/230f1fac-c133-62cb-57fd-95292cc8b23f.gif">
+         <p>The data underlying both tables is the same. Only the sorting is different. To no one’s surprise, US newspapers (like the LA Times, top) usually preferred sorting by total medal count. which tended to depict the US in the lead. Non-US newspapers (like the Guardian, bottom) usually preferred sorting by gold-medal count, which tended to put China in the lead.</p>
+         <p>Neither method is defensible. Total-medal ordering makes no sense because it weights all medals equally. This contradicts the basic logic of the medal system, which is gold > silver > bronze. But gold-medal ordering is no better. It ignores silver and bronze entirely. The New York Times made an interactive tool showing how different medal-weighting ratios would <a href="https://www.nytimes.com/interactive/2021/07/27/upshot/which-country-leads-in-the-olympic-medal-count.html">affect the rankings</a>.</p>
+         <p>Still, there are two other significant imbalances that the Olympics and the media rarely seem to acknowledge — let alone address in the medal ranking — that are inherent in a competition between nations.</p>
+         <p>First is <strong>population</strong>. Competing in the Olympics requires human beings with a high level of athletic talent. A country with a billion people is naturally going to have a larger talent pool than one with a million people.</p>
+         <p>Second is <strong>money</strong>. Competing in the Olympics requires infrastructure and funding for athletics. A wealthy country is naturally going to have an advantage over a poorer country. (Small but wealthy countries have sometimes <a href="https://www.nbcnews.com/storyline/2016-rio-summer-olympics/oil-rich-countries-are-importing-elite-athletes-bump-national-medal-n632566">imported their Olympic athletes</a>, despite the awkward symbolism.)</p>
+         <p>For fun, I used to calculate Olympic rankings weighted by these extra factors. That’s no longer necessary because the Financial Times has devised a <a href="https://ig.ft.com/tokyo-olympics-alternative-medal-table/" target="blank">gloriously detailed weighted ranking</a> along these lines. The winner probably won’t be surprising. The weighted ranking of the United States probably will be. We’re number one… hundred and eight!</p>
+      </article>
+      <hr>
+      <footer>
+         <p><a href="https://github.com/ThomasRettig/olympics" target="blank">Edit on Github!</a></p>
+      </footer>
+    </body>
+</html>
